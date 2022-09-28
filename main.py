@@ -75,13 +75,15 @@ print(my_bool)
 
 # Comparison Operators Practice #3:
 # Create two variables (num1 and num2):
-
+num1 = 64 * 3
+num2= 24 * 8
 # Inside num1, store the result of 64 x 3
 
 # Inside num2, store the result of 24 x 8
 
 # Check if num1 is different from num2 and store the result of that comparison in a variable called my_bool.
-
+my_bool = num1 != num2
+print(my_bool)
 
 
 
@@ -121,20 +123,35 @@ print(my_bool)
 # Logical Operators Practice #3
 # Check if the words:
 
-# word1 = "success", and
+word1 = "success"
 
-# word2 = "technology"
+word2 = "technology"
 
 # are not found in the sentence below, and store the result (a boolean) in a variable called my_bool:
 
-# "When something is important enough, you do it even if the odds are against you" - Elon Musk
-
+text = "when something is important enough, you do it even if the odds are against you"
+my_bool = ("word1" in text) and ('word2' in text)
+print(my_bool)
 
 
 
 
 ########################################decision making in python#####################################
+#lesson
+# if 5 == 2:
+#   print("it is corrrect")
+# else:
+#   print("it is not correct")
 
+pet = 'rabbit'
+if pet == 'cat':
+  print("you have cat")
+elif pet == 'fish':
+  print("you have fish")
+elif pet == 'dog':
+  print("you have dog")
+else:
+  print("I dont know what animal you have")
 
 
 # Decision Making Practice #1
